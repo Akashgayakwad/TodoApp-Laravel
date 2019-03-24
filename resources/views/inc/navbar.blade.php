@@ -9,7 +9,7 @@
       <li class="{{Request::is('/') ? "nav-item active" : "nav-item"}}">
         <a class="nav-link" href="/">Home</a>
       </li>
-      <li class="{{Request::is('/todo/create') ? "nav-item active" : "nav-item"}}">
+      <li class="{{Request::is('todo/create') ? "nav-item active" : "nav-item"}}">
         <a class="nav-link" href="/todo/create">Create Todo</a>
       </li>
       <li class="nav-item">
