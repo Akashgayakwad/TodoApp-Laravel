@@ -45,7 +45,7 @@ class TodosController extends Controller
         $todo->body = $request->input('body');
         $todo->due = $request->input('due');
         $todo->save();
-        return redirect('/')->with('success', 'Todo Created');
+        return redirect('/')->with('success', 'Todo Created Successfully');
     }
 
     /**
@@ -89,7 +89,7 @@ class TodosController extends Controller
       $todo->body = $request->input('body');
       $todo->due = $request->input('due');
       $todo->save();
-      return redirect('/')->with('success', 'Todo Updated');
+      return redirect('/')->with('success', 'Todo Updated Successfully');
     }
 
     /**
